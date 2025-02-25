@@ -1,13 +1,13 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
 // @project_name : CypherX
-// @author : TYLOR
+// @author : Teeman™️
 // @youtube : https://www.youtube.com/@heyits_tylor
-// @instagram : heyits_tylor
+// @instagram : teeman_909 
 // @telegram : t.me/heyits_tylor
-// @github : Dark-Xploit
+// @github : Teeman99
 // @tiktok : heyits_tylor
-// @whatsapp : +254754783972
+// @whatsapp : +263785824469
 
 //----------------------[ CYPHER-X ]----------------------//
 
@@ -19,29 +19,29 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 //--------------------[ SESSION ID ]----------------------//
 
 global.SESSION_ID = process.env.SESSION_ID || '' 
-//Enter your Xploader session id here; must start with XPLOADER-BOT:~
+//XPLOADER-BOT:~HzYRHaQa#GsaJKMSBmPQNub9Lry7nhCaDO5Mg-zflI_YbBYNixYw:~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'CypherX' 
+global.botname = process.env.BOT_NAME || 'Lil'Smokey' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '263785824469' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', '254712345678'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263785824469'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'Teeman💚' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "Cypher" 
+global.packname = process.env.STICKER_PACK_NAME || "Teeman" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
@@ -61,7 +61,7 @@ global.mode = process.env.MODE || 'public';
 
 //----------[ STATUS REACTION EMOJI ]--------------//
 
-global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+global.statusemoji = process.env.STATUS_EMOJI || '💚'
 
 //---------------[ AUTO VIEW STATUS ]---------------//
 
@@ -81,7 +81,7 @@ global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
 
 //--------------------[ CHATBOT ]-----------------------//
 
-global.chatbot = process.env.CHATBOT || 'false'
+global.chatbot = process.env.CHATBOT || 'true'
 // set true to enable and false to disable auto ai chatbot
 
 //-------------------[ ANTI DELETE ]--------------------//
@@ -112,7 +112,7 @@ global.welcome = process.env.WELCOME_MSG || 'false'
 
 //----------------------[ TIMEZONE ]--------------------//
 
-global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
+global.timezones = process.env.TIMEZONE || "Africa/Harare" 
 //Don't edit this if you don't know!
 
 //--------------------[ AUTO READ ]--------------------//
@@ -137,13 +137,13 @@ global.plink = process.env.PLINK || "https://www.instagram.com/heyits_tylor?igsh
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "©CypherX"
+global.wm = process.env.GL_WM || "Teeman💚💚💚"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '©CypherX', 
+  success: 'Lil_Smokey at your service', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
